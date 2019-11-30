@@ -1,0 +1,308 @@
+/** Green
+ **************************************************************** **/
+	::selection {
+		background: #8ab933;
+	}
+	::-moz-selection {
+		background: #8ab933; /* Firefox */
+	}
+	::-webkit-selection {
+		background: #8ab933; /* Safari */
+	}
+
+	.box-static.box-border-top {
+		border-color: #8ab933;
+	}
+
+	.box-static.box-border-top {
+		border-top: rgba(0,0,0,0.5) 3px solid;
+		border-top-width: 3px;
+		border-top-style: solid;
+		
+	}
+	img.pull-left {
+		margin: 0 20px 10px 0;
+		margin-top: 0px;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+	div.heading-border-bottom.heading-color {
+		border-bottom-color: #8ab933;
+	}
+	div.heading-title.heading-border-bottom {
+		border-bottom: #8ab933 2px solid;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+	}
+	div.heading-title {
+		position: relative;
+		margin-bottom: 40px;
+	}
+
+	.box-static {
+		padding: 15px;
+		padding-top: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+		background-color: rgba(0,0,0,0.05);
+		border-top: transparent 3px solid;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	.margin-bottom-60 {
+		margin-bottom: 60px !important;
+	}
+	.box-static .box-title {
+		margin-bottom: 20px;
+		border-bottom: rgba(0,0,0,0.1) 1px solid;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: rgba(0, 0, 0, 0.1);
+	}
+
+	ul.list-icons {
+		margin-left: 1.75em;
+		position: relative;
+	}
+	.nopadding-bottom {
+		padding-bottom: 0 !important;
+	}
+	.padding-15 {
+		padding: 15px !important;
+		padding-top: 15px !important;
+		padding-right: 15px !important;
+		padding-bottom: 15px !important;
+		padding-left: 15px !important;
+	}
+	.list-unstyled {
+		padding-left: 0;
+		list-style: none;
+		list-style-position: initial;
+		list-style-image: initial;
+		list-style-type: none;
+	}
+	ul.list-icons>li {
+		position: relative;
+	}
+	.margin-bottom-20 {
+		margin-bottom: 20px !important;
+	}
+	ul.list-icons>li>i {
+		position: absolute;
+		left: -1.75em;
+		width: 14px;
+		text-align: center;
+		top: 5px;
+	}
+	.fa {
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-style: normal;
+		font-variant-ligatures: normal;
+		font-variant-caps: normal;
+		font-variant-numeric: normal;
+		font-variant-east-asian: normal;
+		font-weight: normal;
+		font-stretch: normal;
+		font-size: inherit;
+		line-height: 1;
+		font-family: FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.text-success {
+		color: #02B700 !important;
+	}
+	.size-18 {
+		font-size: 18px !important;
+		line-height: 24px !important;
+	}
+	.bold {
+		font-weight: bold !important;
+	}
+	.block {
+		display: block !important;
+	}
+	.size-18 {
+		font-size: 18px !important;
+		line-height: 24px !important;
+	}
+
+	a,
+	a:focus:not(.btn),
+	section.dark a,
+	#slidetop a:hover,
+	h1 > span,
+	h2 > span,
+	h3 > span,
+	h4 > span,
+	h5 > span,
+	h6 > span,
+	.pagination>li>a, 
+	.pagination>li>a:hover, 
+	.pagination>li>span,
+	#sidepanel ul li a[data-toggle="collapse"],
+	#sidepanel ul li a[data-toggle="collapse"]:hover,
+	#sidepanel ul li a:hover, 		
+	#menu_overlay_close:hover,
+	.owl-carousel.featured a.figure>span>i,
+	.owl-carousel.featured a:hover,
+	figure.zoom>a.lightbox:hover,
+	#portfolio h2>a:hover,
+	#portfolio h3>a:hover,
+	#portfolio h4>a:hover,
+	#portfolio h5>a:hover,
+	#portfolio h6>a:hover,
+	ul.widget-twitter li>small>a:hover,
+	.blog-post-item h2>a:hover,
+	.blog-post-item h3>a:hover,
+	.blog-post-item h4>a:hover,
+	.blog-post-item h5>a:hover,
+	.item-box .item-hover .inner .ico-rounded:hover>span,
+	ul.side-nav>li:hover>a,
+	ul.side-nav>li a:hover,
+	ul.side-nav>li.active>a { 
+		color: #8ab933; 
+	}
+	
+	
+	div.alert.alert-primary,
+	.datepicker table tr td.active.active,
+	.owl-theme .owl-controls .owl-page span,
+	.open>.dropdown-toggle.btn-primary,
+	.btn-primary,
+	.btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary:focus,
+	.pagination>.active>a,
+	.pagination>.active>a:hover,
+	#header li.quick-cart .quick-cart-box a.btn,
+	#header li.quick-cart .quick-cart-box a.btn:hover,
+	.tp-bullets.simplebullets.round .bullet.selected,
+	#progressBar #bar,								
+	#page-menu,
+	#page-menu ul {
+		background-color:#8ab933;
+	}
+	
+	/* !important required */
+	
+	div.side-nav ul>li:hover>a, 
+	div.side-nav ul>li.active>a {
+		color:#8ab933 !important;
+	}
+
+	
+	a.thumbnail.active,
+	a.thumbnail:hover,
+	.btn-primary,
+	.btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary:focus {
+		border-color:#8ab933;
+	}
+
+	.open>.dropdown-toggle.btn-primary,
+	.btn-primary,
+	.btn-primary:active,
+	.btn-primary:focus,
+	.btn-primary:hover
+	.pagination>.active>a,
+	.pagination>.active>a:hover {
+		border-color: #8ab933;
+	}
+
+	#topNav ul.dropdown-menu { /* submenu border top color */
+		border-top-color:#8ab933;
+	}
+	section.featured-grid div.row>div .ribbon:before,
+	.modal-content {
+		border-top-color:#8ab933;
+	}
+
+	#topNav ul.dropdown-menu {
+		border-color: #8ab933 #fff #fff;
+	}
+	#topNav div.submenu-dark ul.dropdown-menu {
+		border-color: #8ab933 #3F3F3F #3F3F3F;
+	}
+	#topMain li.search .search-box {
+		border-top: #8ab933 2px solid;
+	}
+
+
+/**	[Shortcode] Buttons
+*************************************************** **/
+section.dark .btn-default:hover {
+	color: #8ab933;
+	background-color:rgba(0,0,0,0.3);
+}
+
+.box-icon a.box-icon-title:hover>h2 {
+	color:#8ab933;
+}
+.box-icon a.box-icon-title:hover>i {
+	color:#fff;
+	background-color:#8ab933;
+}
+
+.box-flip .box2 {
+	color:#fff;
+	background-color:#8ab933;
+}
+
+.box-flip .box2 h1,
+.box-flip .box2 h2,
+.box-flip .box2 h3,
+.box-flip .box2 h4,
+.box-flip .box2 h5,
+.box-flip .box2 h6 {
+	color:#fff;
+}
+
+.box-static.box-border-top {
+	border-color:#8ab933;
+}
+
+/**	[Shortcode] Paginations
+*************************************************** **/
+section.dark .pagination > li.active>a,
+.pagination > li.active>a {
+	border-color:#8ab933;
+	background-color:#8ab933;
+}
+
+/** Sky Forms
+ **************************************************************** **/
+/**/
+/* normal state */
+/**/
+.sky-form .toggle i:before {
+	background-color: #8ab933;	
+}
+.sky-form .button {
+	background-color: #8ab933;
+}
+
+/**/
+/* checked state */
+/**/
+.sky-form .radio input + i:after {
+	background-color: #8ab933;	
+}
+.sky-form .checkbox input + i:after {
+	color: #8ab933;
+}
+.sky-form .radio input:checked + i,
+.sky-form .checkbox input:checked + i,
+.sky-form .toggle input:checked + i {
+	border-color: #8ab933;	
+}
+.sky-form .rating input:checked ~ label {
+	color: #8ab933;	
+}

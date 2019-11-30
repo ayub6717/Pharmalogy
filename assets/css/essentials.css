@@ -1,0 +1,850 @@
+/* login */
+/* .alert.alert-mini {
+    padding: 6px 10px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border-left: 0;
+    border-left-width: 0px;
+    border-left-style: initial;
+    border-left-color: initial;
+}
+
+div.alert {
+    
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 5px;
+    border-left-width: 5px;
+} */
+/* 
+.margin-bottom-30 {
+    margin-bottom: 30px !important;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.box-static.box-border-top {
+    border-color: #8ab933;
+    border-top-color: rgb(138, 185, 51);
+    border-right-color: rgb(138, 185, 51);
+    border-bottom-color: rgb(138, 185, 51);
+    border-left-color: rgb(138, 185, 51);
+}
+.box-static.box-border-top {
+    border-top: rgba(0,0,0,0.5) 3px solid;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+.padding-30 {
+    padding: 30px !important;
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+}
+
+.box-static .box-title {
+    margin-bottom: 20px;
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+.size-20 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+}
+
+h2 {
+    margin: 0 0 32px 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    margin-left: 0px;
+}
+
+.sky-form, .sky-form .label {
+    color: #333;
+    text-align: left;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
+    margin-bottom: 30px;
+}
+
+.clearfix:before{
+	display: table;
+    content: " ";
+}
+.clearfix::after{
+	display: table;
+    content: " ";
+}
+
+.no-text-underline, .no-text-decoration {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+.size-13 {
+    font-size: 13px !important;
+    line-height: 17px !important;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+.btn {
+    position: relative;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2);
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-right-color: rgba(0, 0, 0, 0.2);
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-left-color: rgba(0, 0, 0, 0.2);
+}
+.btn-social {
+    position: relative;
+    padding-left: 54px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 26px;
+    margin: 0;
+}
+.btn, .form-control {
+    height: 40px;
+}
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+.btn-twitter {
+    color: #fff;
+    background-color: #55acee;
+    border-color: rgba(0,0,0,0.2);
+}
+.alert.alert-mini {
+    padding: 6px 10px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border-left: 0;
+}
+.box-static.box-transparent {
+    background-color: transparent;
+}
+.box-static.box-bordered {
+    border: rgba(0,0,0,0.1) 1px solid;
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.1);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.sky-form .input input{
+	border-color: #e5e5e5;
+    border-top-color: rgb(229, 229, 229);
+    border-right-color: rgb(229, 229, 229);
+    border-bottom-color: rgb(229, 229, 229);
+    border-left-color: rgb(229, 229, 229);
+}
+sky-form .input input, .sky-form .select select, .sky-form .textarea textarea {
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 8px 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    outline: 0;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    font: 15px/19px 'Open Sans',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    line-height: 19px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #404040;
+    appearance: normal;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+} */
+
+
+
+
+
+/* login end */
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #333;
+}
+a, a:focus, a:hover, a:active {
+    outline: 0;
+    cursor: pointer;
+}
+a {
+    -webkit-transition: all .300s;
+    -moz-transition: all .300s;
+    -o-transition: all .300s;
+    transition: all .300s;
+}
+
+video {
+	vertical-align: middle;
+}
+
+video.fullvideo {
+	width: 100%;
+	height: 100%;
+}
+
+/* video background */
+section.section-video {
+	border: 0;
+}
+
+section.section-video .section-container-video {
+	position: absolute !important;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 0;
+}
+
+section.section-video .section-container-video>video {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+section.section-video h1,
+section.section-video h2,
+section.section-video h3,
+section.section-video h4,
+section.section-video h5,
+section.section-video h6,
+section.section-video p,
+section.section-video .btn,
+section.section-video img,
+section.section-video div,
+section.section-video {
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+
+section.section-video .overlay {
+	background-color: rgba(34, 34, 34, .3);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+section.section-video h1 {
+	font-size: 70px;
+}
+
+section.section-video h2 {
+	font-size: 60px;
+}
+
+section.section-video h3 {
+	font-size: 50px;
+}
+
+@media only screen and (max-width: 760px) {
+	section.section-video h1 {
+		font-size: 55px;
+	}
+
+	section.section-video h2 {
+		font-size: 45px;
+	}
+
+	section.section-video h3 {
+		font-size: 45px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	section.section-video h1 {
+		font-size: 36px;
+	}
+
+	section.section-video h2 {
+		font-size: 30px;
+	}
+
+	section.section-video h3 {
+		font-size: 30px;
+	}
+}
+
+/* Text Color */
+.text-white {
+	color: #fff !important;
+}
+
+p, pre, ul, ol, dl, dd, address, table, fieldset, form {
+    margin-bottom: 30px;
+}
+
+
+/**	15. Fontawesome v4.4.0
+	http://fortawesome.github.io/Font-Awesome/
+*************************************************** **/
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'),
+		url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+		url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+		url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+		url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: inherit;
+    line-height: 1;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+@-webkit-keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+
+@keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+.fa-search:before {
+	content: "\f002"
+}
+
+.fa-bars:before {
+	content: "\f0c9"
+}
+
+
+.fa-shopping-cart:before {
+	content: "\f07a"
+}
+
+.fa-envelope:before {
+	content: "\f0e0"
+}
+
+.fa-angle-left:before {
+	content: "\f104"
+}
+.fa-angle-right:before {
+	content: "\f105"
+}
+
+.fa-heartbeat{
+	content: "\f10a";	
+}
+
+/**	16. Et-Line	& Font Icons
+*************************************************** **/
+/* Et-Line */
+@font-face {
+	font-family: 'et-line';
+	src: url('../fonts/et-line.eot');
+	src: url('../fonts/et-line.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/et-line.woff') format('woff'),
+		url('../fonts/et-line.ttf') format('truetype'),
+		url('../fonts/et-line.svg#et-line') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: et-line;
+	content: attr(data-icon);
+	speak: none;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: inline-block
+}
+
+.et-basket,
+.et-briefcase,
+.et-document,
+.et-flag,
+.et-layers,
+.et-megaphone,
+.et-puzzle,
+.et-trophy {
+	font-family: et-line;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: inline-block
+}
+
+.et-document:before {
+	content: "\e005"
+}
+
+.et-briefcase:before {
+	content: "\e015"
+}
+
+.et-megaphone:before {
+	content: "\e021"
+}
+
+.et-trophy:before {
+	content: "\e023"
+}
+
+.et-flag:before {
+	content: "\e024"
+}
+
+.et-puzzle:before {
+	content: "\e026"
+}
+
+.et-basket:before {
+	content: "\e027"
+}
+
+.et-layers:before {
+	content: "\e031"
+}
+
+/* Font Icons */
+@font-face {
+	font-family: 'font-icons';
+	src: url('../fonts/font-icons.eot');
+	src: url('../fonts/font-icons.eot') format('embedded-opentype'),
+		url('../fonts/font-icons.woff') format('woff'),
+		url('../fonts/font-icons.ttf') format('truetype'),
+		url('../fonts/font-icons.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+	display: inline-block;
+	font-family: font-icons;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: inherit;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon.pull-left {
+	margin-right: .3em
+}
+
+.icon.pull-right {
+	margin-left: .3em
+}
+
+@-moz-keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg)
+	}
+
+	100% {
+		-moz-transform: rotate(359deg)
+	}
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg)
+	}
+
+	100% {
+		-webkit-transform: rotate(359deg)
+	}
+}
+
+@-o-keyframes spin {
+	0% {
+		-o-transform: rotate(0deg)
+	}
+
+	100% {
+		-o-transform: rotate(359deg)
+	}
+}
+
+@-ms-keyframes spin {
+	0% {
+		-ms-transform: rotate(0deg)
+	}
+
+	100% {
+		-ms-transform: rotate(359deg)
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg)
+	}
+
+	100% {
+		transform: rotate(359deg)
+	}
+}
+
+.icon-envelope:before {
+	content: "\e603"
+}
+
+.icon-heart:before {
+	content: "\e663"
+}
+
+.icon-gplus:before {
+	content: "\e838"
+}
+
+.icon-linkedin:before {
+	content: "\e858"
+}
+
+.icon-rss:before {
+	content: "\e85d"
+}
+
+.icon-twitter:before {
+	content: "\e85f"
+}
+
+.icon-facebook:before {
+	content: "\e86f"
+}
+/**	17. Social icons
+*************************************************** **/
+.social-icon {
+	margin: 0 5px 5px 0;
+	width: 40px;
+	height: 40px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+	border-color: transparent;
+	overflow: hidden;
+	display: inline-block;
+	text-decoration: none !important;
+	text-align: center;
+	cursor: pointer;
+	font-style: normal;
+	letter-spacing: 0em !important;
+	color: #eaeaea !important;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.social-icon:hover>i {
+	color: #fff;
+}
+
+.social-icon i {
+	display: block;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	margin-top: 6px;
+	font-size: 28px;
+}
+
+.social-icon:hover i:first-child {
+	margin-top: -38px;
+}
+
+.social-icon:hover i:last-child {
+	margin-top: 4px;
+}
+
+
+body:not(.device-touch) .social-icon {
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+body:not(.device-touch) .social-icon i {
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+
+/* medium */
+a.social-icon>i[class*=" icon-"],
+a.social-icon>i[class^=icon-] {
+	font-size: 20px;
+}
+
+/* small */
+
+
+.social-facebook:hover {
+	background-color: #3B5998 !important;
+}
+
+.social-facebook {
+	background-color: #3B5998;
+}
+
+.social-gplus:hover {
+	background-color: #DD4B39 !important;
+}
+
+.social-gplus {
+	background-color: #DD4B39;
+}
+
+.social-linkedin:hover {
+	background-color: #0E76A8 !important;
+}
+
+.social-linkedin {
+	background-color: #0E76A8;
+}
+
+.social-rss:hover {
+	background-color: #EE802F !important;
+}
+
+.social-rss {
+	background-color: #EE802F;
+}
+
+.social-twitter:hover {
+	background-color: #00ACEE !important;
+}
+
+.social-twitter {
+	background-color: #00ACEE;
+}
+
+/* bordered social icons */
+a.social-icon.social-icon-border {
+	background-color: transparent;
+	border: #999 1px solid;
+	color: #565656 !important;
+	text-shadow: none;
+}
+
+a.social-icon.social-icon-border:hover {
+	border-color: transparent;
+}
+
+a.social-icon.social-icon-border:hover>i {
+	color: #fff !important;
+}
+
+section.dark a.social-icon.social-icon-border {
+	color: #fff !important;
+}
+
+section.dark a.social-icon.social-icon-border:hover>i {
+	color: #111 !important;
+}
+
+/* colors */
+span.badge-aqua {
+	background: #27d7e7 !important;
+}
+/** 31. Navigations
+*************************************************** **/
+/* small categories - like tags */
+ul.categories>li {
+	margin: 0;
+	padding: 1px;
+}
+
+ul.categories>li>a {
+	letter-spacing: 0;
+	font-size: 12px;
+	color: #999;
+}
+
+ul.categories>li>a:hover {
+	color: #121212;
+}
+
+ul.categories>li:after {
+	content: ' , ';
+}
+
+ul.categories>li:last-child:after {
+	content: '';
+}
+
+section.dark ul.categories>li>a:hover {
+	color: #ccc;
+}
+
+/** 49. Forms
+**************************************************************** **/
+form div.row:last-child {
+	margin-bottom: 0;
+}
+
+form>select,
+form>input,
+form>textarea {
+	margin-bottom: 8px;
+}
+
+input.err,
+input.error,
+textarea.err,
+textarea.error,
+select.err,
+select.error {
+	border: #bf6464 2px dashed !important;
+	background-color: #fdfbfb !important;
+
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+/*
+	Form Validation
+*/
+form.validate label.error {
+	position: absolute;
+	background-color: #ff0000;
+	color: #fff;
+	left: 0;
+	z-index: 10;
+	bottom: -26px;
+	left: 36px;
+	font-size: 11px;
+	font-weight: 400;
+	padding: 3px;
+	display: none !important;
+}
