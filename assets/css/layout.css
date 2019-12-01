@@ -1258,7 +1258,7 @@ pre, .alert, .panel, .btn {
 	border: 2px solid #00B4CC;
   }
 
-@media only screen and (min-width : 150px) and (max-width : 780px)
+@media only screen and (min-width : 150px) and (max-width : 880px)
 {
 	
 	.search1{
