@@ -1264,6 +1264,16 @@ pre, .alert, .panel, .btn {
 	margin-right: -190px;
 	
   }
+
+ @media only screen and (min-width : 150px) and (max-width : 980px)
+{
+	
+	.search1{
+		width: 70%;
+		margin: 0 auto;
+	}
+
+}
 	  
 /* medicine er porer section jekhane onk icon ache.   */
 .box-icon .box-icon-title>h2 {
