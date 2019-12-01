@@ -1200,16 +1200,8 @@ pre, .alert, .panel, .btn {
 }
 
 
-
-.search1 {
-	width: 100%;
-	position: relative;
-	display: flex;
-	margin-bottom: 450px;
-  }
-  
   .searchTerm1 {
-	width: 400px;
+	width: 50%;
 	border: 3px solid #00B4CC;
 	border-right: none;
 	padding: 15px;
@@ -1235,41 +1227,23 @@ pre, .alert, .panel, .btn {
 	font-size: 20px;
   }
   
-  /*Resize the wrap to see the search bar change!*/
-  .wrap1{
-	width: 500px;
-	position: absolute;
-	top: 50%;
-	left: 60%;
-	transform: translate(-57%, -40%);
-	margin-top: 150px;
-  }
   .select{
-	margin-top: 50px;
-	position: absolute;
+	
 	border-radius: 5px;
 	border: 2px solid #00B4CC;
   }
   .select1{
-	margin-top: 100px;
-	margin-left: -440px;
-	position: absolute;
 	border-radius: 5px;
 	border: 2px solid #00B4CC;
   }
+  
 
-
-  .d{
-	margin-bottom: -70px;
-	margin-right: -190px;
-	
-  }
-
- @media only screen and (min-width : 150px) and (max-width : 980px)
+  @media only screen and (min-width : 150px) and (max-width : 780px)
 {
 	
-	.search1{
-		width: 50%;
+	.searchTerm1
+	{
+		width: 75%;
 		margin: 0 auto;
 	}
 
